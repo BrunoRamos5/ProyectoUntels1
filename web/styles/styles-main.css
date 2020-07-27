@@ -1,0 +1,15 @@
+body{
+    background-image: linear-gradient(to top, #e6e9f0 0%, #7c9fcc 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    height: 100%;
+}
+
+h1{
+    text-shadow: 0px 4px 4px rgb(165, 175, 70);
+    font-size: 90px !important;
+    color: rgb(15, 47, 143);
+}
+

@@ -1,0 +1,140 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url(../imagenes/untelsFondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    font-family:  sans-serif;
+}
+
+.container{
+    box-shadow: 0px 0px 15px black;
+    width: 510px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background:rgba(39, 80, 135, 0.66);
+    animation-name: init;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+@keyframes init{
+    0%{
+        opacity: 0;
+    }100%{
+        opacity: 1;
+    }
+}
+
+.container .login{
+    margin: 0px 50px;
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-bottom: 1px solid cadetblue;
+    text-align: center;
+}
+
+.login .header{
+    flex-basis: 20%;
+    padding: 0px 0px;
+    font-size: 14px;
+    color: white;
+    letter-spacing: 1.2px;
+}
+
+.form{    
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: left;
+}
+.form h2{
+    flex-basis: 100%;
+    font-size: 20px;
+    border-bottom: 1px solid orange;
+    color: white;
+}
+
+.form label{
+    margin-top: 20px;
+    flex-basis: 100%;
+    font-size: 15px;
+    font-weight: 700;
+    color: #9b9fa3;
+}
+.form input{
+    flex-basis: 100%;
+    border-radius: 20px;
+    padding:15px 0px;
+    border: none;
+    font-size: 16px;
+    background-color: transparent;
+    box-shadow: 1px 3px 1px grey;
+    padding-left: 10px;
+    color: white;
+}
+
+.form input:focus,
+.form input:active{
+    flex-basis: 100%;
+    border-radius: 20px;
+    padding:15px 0px;
+    border: none;
+    background-color: transparent;
+    box-shadow: 1px 1px 1px aqua;
+    padding-left: 10px;
+    outline: none;
+}
+
+.form button{
+    flex-basis: 100%;
+    margin-top: 10px;
+    padding: 12px 0px;
+    background-color: #E3B142;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+.form button:hover{
+    background-color: #aa7c17;
+}
+
+.bx{
+    position: absolute;
+    font-size: 120px;
+    top: 20px;
+    right: 40px;
+    color:rgba(39, 80, 135, 0.66);
+    opacity: 0;
+    animation: load;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+}
+@keyframes load{
+    0%{
+        transform: rotate(0deg);
+        opacity: 0;
+    }25%{
+        opacity: 1;
+    }50%{
+        opacity: 0;
+    }75%{
+        opacity: 1;
+    }100%{
+        transform: rotate(360deg);
+        opacity: 0;
+    }
+}
