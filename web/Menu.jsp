@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" type="text/css" href="./styles/estilosParaMenu.css" />
+        <link rel="stylesheet" type="text/css" href="./styles/styles-menu.css" />
         <title>Menu de Registros</title>
     </head>
     <body>

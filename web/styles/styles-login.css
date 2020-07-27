@@ -4,8 +4,8 @@
 }
 
 body{
-    background-image: url(../imagenes/untelsFondo.jpg);
-    background-repeat: no-repeat;
+    background-image: url(../imagenes/untelsFondo.jpg);//se carga la imagen
+    background-repeat: no-repeat;//si la imagen es muy pequeña no se repite
     background-position: center;
     background-size: cover;
     display: flex;

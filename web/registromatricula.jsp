@@ -202,8 +202,8 @@
             <td><%out.print(rs.getString(3));%></td> 
             <td><%out.print(rs.getString(4));%></td> 
             <td><%out.print(rs.getString(5));%></td> 
-            <td style="background-color: #ea3e36"><a style="text-decoration: none;color:white" href="registromatricula.jsp?f_accion=E&f_idmatricula=<%out.print(ide);%>"><i class='bx bx-trash'></i> Eliminar</a></td>
-            <td style="background-color: #1080be"><a style="text-decoration: none;color:white" href="registromatricula.jsp?f_accion=M1&f_idmatricula=<%out.print(ide);%>"><i class='bx bx-edit-alt'></i> Editar</a></td>
+            <td style="background-color: #ea3e36"><a style="text-decoration: none;color:white" href="registromatricula.jsp?f_accion=E&f_idmatricula=<%out.print(ide);%>"><i class='bx bx-trash'></i> </a></td>
+            <td style="background-color: #1080be"><a style="text-decoration: none;color:white" href="registromatricula.jsp?f_accion=M1&f_idmatricula=<%out.print(ide);%>"><i class='bx bx-edit-alt'></i> </a></td>
         </tr>
 
         <% 
