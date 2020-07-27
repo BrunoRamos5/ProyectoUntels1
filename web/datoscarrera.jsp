@@ -89,8 +89,7 @@
 
         %>           
                     
-               
-        
+                  
         <form name="AgregarEstudianteForm" action="datoscarrera.jsp" method="GET">
             <table border="1" cellspacing="0" cellpadding="" align="center" class="table col-2" style="font-size: 12px; margin-top:30px !important">
                 <thead class="thead-dark">
